@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поддержка - Торговая площадка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">ТоргПлощадка</div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="support-container">
+            <h1>Связаться с поддержкой</h1>
+            
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Электронная почта</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Тема обращения</label>
+                        <select id="subject" name="subject">
+                            <option value="question">Вопрос по сайту</option>
+                            <option value="order">Проблема с заказом</option>
+                            <option value="payment">Вопрос по оплате</option>
+                            <option value="other">Другое</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Отправить сообщение</button>
+                </form>
+            </div>
+            
+            <div class="contact-info">
+                <h3>Дополнительные способы связи</h3>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <div>support@torgploschadka.ru</div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div>+7 (999) 123-45-67</div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">⏱️</div>
+                    <div>Время работы: Пн-Пт с 9:00 до 18:00</div>
+                </div>
+            </div>
+            
+            <a href="index.html" class="back-link">← Вернуться на главную</a>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ТоргПлощадка. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
