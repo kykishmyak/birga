@@ -3,57 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Торговая площадка</title>
+    <title>ТоргПлощадка</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">ТоргПлощадка</div>
-            </div>
+        <div class="wrap">
+            <a href="index.html" class="logo">ТоргПлощадка</a>
         </div>
     </header>
-    
-    <div class="container">
-        <div class="search-bar">
-            <input type="text" placeholder="Поиск объявлений...">
-            <button>Найти</button>
+    <div class="wrap">
+        <div class="search">
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Поиск объявлений...">
+                <button>Найти</button>
+            </div>
         </div>
         
-        <div class="main-content">
-            <div class="listings">
+        <div class="main">
+            <div class="items">
                 <h2>Объявления</h2>
-                <div class="empty-listings">
-                    <h3>Список объявлений пуст</h3>
-                    <p>На данный момент нет доступных объявлений</p>
+                <div class="scroll">
+                    <div class="grid">
+                        <div class="card">
+                            <img src="mlogo.png" alt="Minecraft">
+                            <div class="info">
+                                <h3>Лицензионный аккаунт Minecraft #1</h3>
+                                <p>Полный доступ к игре</p>
+                                <p class="price">1500 ₽</p>
+                                <a href="craft.html" class="buy-btn">Купить</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="mlogo.png" alt="Minecraft">
+                            <div class="info">
+                                <h3>Лицензионный аккаунт Minecraft #2</h3>
+                                <p>Полный доступ к игре</p>
+                                <p class="price">1500 ₽</p>
+                                <a href="craft.html" class="buy-btn">Купить</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="mlogo.png" alt="Minecraft">
+                            <div class="info">
+                                <h3>Лицензионный аккаунт Minecraft #3</h3>
+                                <p>Полный доступ к игре</p>
+                                <p class="price">1500 ₽</p>
+                                <a href="craft.html" class="buy-btn">Купить</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="rlogo.png" alt="Roblox Logo" class="listing-image">
+                            <div class="info">
+                                <h3>Аккаунт Roblox с донатом #1</h3>
+                                <p>Премиум аккаунт с редкими предметами</p>
+                                <p class="price">399 ₽</p>
+                                <a href="roblox.html" class="buy-btn">Купить</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="rlogo.png" alt="Roblox Logo" class="listing-image">
+                            <div class="info">
+                                <h3>Аккаунт Roblox с донатом #2</h3>
+                                <p>Премиум аккаунт с редкими предметами</p>
+                                <p class="price">399 ₽</p>
+                                <a href="roblox.html" class="buy-btn">Купить</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="rlogo.png" alt="Roblox Logo" class="listing-image">
+                            <div class="info">
+                                <h3>Аккаунт Roblox с донатом #3</h3>
+                                <p>Премиум аккаунт с редкими предметами</p>
+                                <p class="price">399 ₽</p>
+                                <a href="roblox.html" class="buy-btn">Купить</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="sidebar">
-                <a href="creat.html" class="create-listing-btn">Выставить объявление</a>
-                <div class="cart">
+            <div class="side">
+                <a href="creat.html" class="btn-add">Выставить объявление</a>
+                <div class="box cart">
                     <h3>Корзина</h3>
-                    <div class="empty-cart">
+                    <div class="empty">
                         <p>Ваша корзина пуста</p>
                     </div>
                 </div>
                 
-                <div class="chat">
+                <div class="box chat">
                     <h3>Чат с покупателями</h3>
-                    <div class="empty-chat">
+                    <div class="empty">
                         <p>У вас пока нет сообщений</p>
                     </div>
                 </div>
                 
-                <a href="support.html" class="support-btn">Связаться с поддержкой</a>
+                <a href="support.html" class="btn-support">Поддержка</a>
             </div>
         </div>
     </div>
     
     <footer>
-        <div class="container">
-            <p>© 2025 ТоргПлощадка. Все права защищены.</p>
+        <div class="wrap">
+            <p> 2025 ТоргПлощадка</p>
         </div>
     </footer>
 </body>
